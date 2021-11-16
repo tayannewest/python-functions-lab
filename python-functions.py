@@ -18,8 +18,11 @@ print(largest([3, 5, 2, 1, 3]))
 
 # problem 3
 
+def occurances(str1, str2):
+  num = str1.count(str2)
+  return num
 
-
+print(occurances("beep boop", "b"))
 
 # problem 4
 
